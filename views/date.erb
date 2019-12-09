@@ -6,8 +6,8 @@
   </head>
   <body>
     <h2>
-    <% date = DateTime.now %>
-    <%="The date is" + " #{date.}" %>
+    <% date = Time.now %>
+    <%="The date is" + " #{date.month}-#{date.day}-#{date.year}" %>
     </h2>
   </body>
 </html>
